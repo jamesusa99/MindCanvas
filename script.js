@@ -50,7 +50,7 @@ function applyTranslations(lang, opts = {}) {
     const key = el.getAttribute('data-i18n');
     if (!(key in t)) return;
     const val = t[key];
-    if (key.startsWith('about3') || key === 'visionText' || (key.startsWith('scene') && key.endsWith('Value'))) {
+    if (key.startsWith('about0') || key.startsWith('about3') || key === 'visionText' || (key.startsWith('scene') && key.endsWith('Value'))) {
       el.innerHTML = val;
     } else {
       el.textContent = val;

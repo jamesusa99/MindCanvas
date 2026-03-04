@@ -142,7 +142,7 @@ const translations = {
   zh: {
     // Brand philosophy (About intro)
     about0Title: '品牌理念：Sense the Mind, Canvas the Soul',
-    about0P1: 'SenseMind 代表我们的底层技术核心——多模态感知与情感计算；而 MindCanvas 则是我们交付给用户的最终价值——一个可以被重新描绘、充满阳光的心智世界。',
+    about0P1: 'SenseMind 代表我们的底层技术核心——多模态感知与情感计算；而 MindCanvas 则是我们交付给用户的最终价值——<span class="text-nowrap">一个可以被重新描绘、充满阳光的心智世界</span>。',
 
     // Nav
     navDownload: '下载',

@@ -1062,6 +1062,10 @@ section[id] {
   margin-bottom: var(--space-md);
 }
 
+.text-nowrap {
+  white-space: nowrap;
+}
+
 .about-block p {
   margin-bottom: var(--space-md);
   color: var(--gray-600);
