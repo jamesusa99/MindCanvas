@@ -214,7 +214,7 @@ const translations = {
     compareTimelyNew: '事前监测 + 实时疏导，构建预防闭环',
 
     // Solutions
-    solutionsTitle: 'MindCanvas Ecosystem',
+    solutionsTitle: '核心产品矩阵',
     appTag: '数字化伴侣',
     appDesc: '青少年口袋里的 24/7 心理专家',
     appTech: '核心技术',
