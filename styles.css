@@ -367,13 +367,13 @@ body {
 
 .hero-scroll {
   position: absolute;
-  bottom: var(--space-sm);
+  bottom: var(--space-md);
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-xs);
+  gap: var(--space-sm);
   color: var(--gray-400);
   font-size: 0.85rem;
   text-decoration: none;
@@ -383,6 +383,11 @@ body {
 
 .hero-scroll:hover {
   color: var(--gold-soft);
+}
+
+.hero-scroll span {
+  display: block;
+  line-height: 1.3;
 }
 
 .scroll-indicator {
