@@ -13,9 +13,9 @@ const translations = {
     navAbout: 'About',
 
     // Hero
-    heroTagline: 'Weaving the canvas of mind with AI, guarding clear skies for every soul.',
+    heroTagline: 'Sense the Mind, Canvas the Soul',
     heroTitle: 'MindCanvas: Full-Scenario Digital Mental Health Ecosystem',
-    heroSubtitle: 'Built on world-class engineering, a decade in education, serving millions of students. We perceive the mind with AI, heal growth with art.',
+    heroSubtitle: 'SenseMind is our underlying tech—multimodal perception & affective computing. MindCanvas is what we deliver—a re-imaginable, sun-filled mental world for every user.',
     ctaExplore: 'Explore Product Matrix',
     ctaContact: 'Contact an Advisor',
     heroScroll: 'Explore below',
@@ -75,31 +75,31 @@ const translations = {
     compareTimelyNew: 'Proactive monitoring + real-time support · Prevention loop',
 
     // Solutions
-    solutionsTitle: 'Full-Scenario Solutions',
+    solutionsTitle: 'MindCanvas Ecosystem',
     appTag: 'Digital Companion',
-    appDesc: 'Teens\' personal emotional pocket tool',
+    appDesc: '24/7 mental health expert in teens\' pockets',
     appTech: 'Core Tech',
-    appTechItem1: 'Agent Matrix',
-    appTech2: 'Digital Doctor Avatar',
-    appTechItem3: '24/7 Empathetic Dialogue',
-    appHighlight: 'Exclusive · Long-term mood tracking',
+    appTechItem1: 'Agent Matrix for instant emotional guidance',
+    appTech2: 'Digital doctor avatar for long-term trust',
+    appTechItem3: '24/7 empathetic dialogue',
+    appHighlight: 'Instant guidance · Long-term trust',
     portalTechItem1: 'Multimodal sensing (visual, acoustic, physiological)',
-    portalTechItem2: 'AIGC dynamic adaptive scales',
-    portalTag: 'Smart Detection Hub',
-    portalDesc: 'Rapid screening terminal for campuses, hospitals & institutions',
+    portalTechItem2: 'AIGC dynamic scales for non-invasive assessment',
+    portalTag: 'Smart Screening Hub',
+    portalDesc: 'Professional screening terminal for campuses & institutions',
     portalHighlight: 'Library · Clinic · One-stop deployment',
     botTechItem1: 'Embodied AI',
-    botTechItem2: 'Human-like expression & speech',
+    botTechItem2: 'Human-like design & expressive language',
     botTechItem3: 'Voice-text emotion recognition',
-    botTag: 'Embodied Robot',
-    botDesc: 'Physical space interactor & emotional ice-breaker',
-    botHighlight: 'Lower defenses · Higher adherence',
+    botTag: 'Embodied Emotional Robot',
+    botDesc: 'Emotional ice-breaker in physical space',
+    botHighlight: 'Lowers youth defenses · Higher intervention compliance',
     eduTechItem1: 'AI dual-teacher classroom',
     eduTechItem2: 'Integrated mental health readers',
     eduTechItem3: 'Standardized intervention curriculum',
-    eduTag: 'Smart Classroom',
-    eduDesc: 'Comprehensive campus mental health intervention system',
-    eduHighlight: 'Addressing teacher shortages in remote areas',
+    eduTag: 'Smart Dual-Teacher Classroom',
+    eduDesc: 'Standardized mental intervention curriculum system',
+    eduHighlight: 'Quality mental health education to every classroom',
     learnMore: 'Learn more →',
 
     // Research (homepage intro)
@@ -115,6 +115,8 @@ const translations = {
 
     // About
     aboutTitle: 'About MindCanvas',
+    about0Title: 'Brand Philosophy: Sense the Mind, Canvas the Soul',
+    about0P1: 'SenseMind represents our underlying tech core—multimodal perception and affective computing. MindCanvas is the value we deliver to users—a re-imaginable, sun-filled mental world.',
     about1Title: 'Our Beginning: A Decade of Depth, Millions of Students',
     about1P1: 'MindCanvas began with a decade of persistence. Since 2015, the UESTC MediaLab team has reached Sichuan, Gansu, Tibet, Guizhou and more. In remote schools, we have served over 10 million K–12 students.',
     about1P2: 'While promoting educational equity, we saw a critical gap: mental health is now the most hidden, urgent pain point in youth development. True educational fairness is not only about knowledge—it is about protecting every young mind.',
@@ -133,11 +135,15 @@ const translations = {
     contactCta: 'Contact an Advisor',
 
     // Footer
-    footerSlogan: 'Weaving the canvas of mind with AI, guarding clear skies for every soul.',
-    footerCopy: '© MindCanvas · Sichuan Lingxin Yuedong Technology Co., Ltd.',
+    footerSlogan: 'Sense the Mind, Canvas the Soul',
+    footerCopy: '© MindCanvas · SenseMind.ai',
     logoSub: '',
   },
   zh: {
+    // Brand philosophy (About intro)
+    about0Title: '品牌理念：Sense the Mind, Canvas the Soul',
+    about0P1: 'SenseMind 代表我们的底层技术核心——多模态感知与情感计算；而 MindCanvas 则是我们交付给用户的最终价值——一个可以被重新描绘、充满阳光的心智世界。',
+
     // Nav
     navDownload: '下载',
     navScenarios: '应用场景',
@@ -146,9 +152,9 @@ const translations = {
     navAbout: '关于我们',
 
     // Hero
-    heroTagline: '用人工智能编织心智的画布，守护每一颗心灵的晴空',
+    heroTagline: 'Sense the Mind, Canvas the Soul',
     heroTitle: '心幕：全场景数字化心理健康生态系统',
-    heroSubtitle: '立足顶尖工程科技，深耕教育十年，服务千万学子。我们用人工智能感知心灵，用艺术治愈成长。',
+    heroSubtitle: 'SenseMind 代表我们的底层技术核心——多模态感知与情感计算；MindCanvas 则是我们交付给用户的最终价值——一个可以被重新描绘、充满阳光的心智世界。',
     ctaExplore: '探索产品矩阵',
     ctaContact: '联系专业顾问',
     heroScroll: '向下探索',
@@ -208,31 +214,31 @@ const translations = {
     compareTimelyNew: '事前监测 + 实时疏导，构建预防闭环',
 
     // Solutions
-    solutionsTitle: '全场景解决方案',
+    solutionsTitle: 'MindCanvas Ecosystem',
     appTag: '数字化伴侣',
-    appDesc: '青少年个人的情感口袋工具',
+    appDesc: '青少年口袋里的 24/7 心理专家',
     appTech: '核心技术',
-    appTechItem1: '智能体矩阵',
-    appTech2: '数字医生分身',
+    appTechItem1: '智能体矩阵提供即时情感疏导',
+    appTech2: '数字医生分身建立长期信任',
     appTechItem3: '全天候共情对话',
-    appHighlight: '专属感 · 长期心境追踪',
+    appHighlight: '即时疏导 · 长期信任',
     portalTechItem1: '多模态感知（视觉、声学、生理）',
-    portalTechItem2: '智能生成动态自适应量表',
-    portalTag: '智能检测舱',
-    portalDesc: '校园、医院、机构的快速筛查终端',
+    portalTechItem2: 'AIGC 动态量表，实现非侵入式的精准心理体检',
+    portalTag: '智慧监测枢纽',
+    portalDesc: '校园与机构的专业筛查终端',
     portalHighlight: '图书馆 · 医务室 · 一站式部署',
     botTechItem1: '具身智能',
-    botTechItem2: '拟人表情与语音',
+    botTechItem2: '拟人化设计与表情语言',
     botTechItem3: '语音文本情绪识别',
-    botTag: '具身机器人',
-    botDesc: '物理空间的互动与情感破冰者',
-    botHighlight: '降低防线 · 提高遵从度',
+    botTag: '具身情感机器人',
+    botDesc: '物理空间的「情感破冰者」',
+    botHighlight: '降低青少年防线 · 提高干预顺从度',
     eduTechItem1: '人工智能双师课堂',
     eduTechItem2: '集成心理读本',
     eduTechItem3: '标准化干预课程',
-    eduTag: '智慧课堂',
-    eduDesc: '全方位的校园心理干预体系',
-    eduHighlight: '解决偏远地区心理教师匮乏',
+    eduTag: '智慧双师课堂',
+    eduDesc: '标准化心理干预课程体系',
+    eduHighlight: 'AI 双师模式将优质心理教育资源输送至每一间教室',
     learnMore: '了解详情 →',
 
     // Tech
@@ -266,8 +272,8 @@ const translations = {
     contactCta: '联系专业顾问',
 
     // Footer
-    footerSlogan: '用人工智能编织心智的画布，守护每一颗心灵的晴空',
-    footerCopy: '© 心幕 MindCanvas · 四川灵心跃动科技有限公司',
+    footerSlogan: 'Sense the Mind, Canvas the Soul',
+    footerCopy: '© MindCanvas · SenseMind.ai',
     logoSub: '心幕',
   }
 };

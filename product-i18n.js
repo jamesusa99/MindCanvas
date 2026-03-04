@@ -149,6 +149,6 @@ const ecosystemLabels = {
 };
 
 const navTranslations = {
-  en: { scenarios: 'Scenarios', products: 'Products', download: 'Download', technology: 'Research', about: 'About', logoSub: '', footerCopy: '© MindCanvas · Sichuan Lingxin Yuedong Technology Co., Ltd.' },
-  zh: { scenarios: '应用场景', products: '产品矩阵', download: '下载', technology: '技术引擎', about: '关于我们', logoSub: '心幕', footerCopy: '© 心幕 MindCanvas · 四川灵心跃动科技有限公司' }
+  en: { scenarios: 'Scenarios', products: 'Products', download: 'Download', technology: 'Research', about: 'About', logoSub: '', footerCopy: '© MindCanvas · SenseMind.ai' },
+  zh: { scenarios: '应用场景', products: '产品矩阵', download: '下载', technology: '技术引擎', about: '关于我们', logoSub: '心幕', footerCopy: '© MindCanvas · SenseMind.ai' }
 };

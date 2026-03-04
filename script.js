@@ -33,8 +33,8 @@ function updateDocMeta(lang) {
     zh: 'MindCanvas 心幕 — 全场景数字化心理健康生态系统'
   };
   const desc = {
-    en: 'Weaving the canvas of mind with AI, guarding clear skies for every soul. World-class engineering, a decade in education, millions of students.',
-    zh: '用 AI 编织心智的画布，守护每一颗心灵的晴空。立足顶尖工程科技，深耕教育十年，服务千万学子。'
+    en: 'Sense the Mind, Canvas the Soul. MindCanvas is a full-scenario digital mental health ecosystem powered by SenseMind.',
+    zh: 'Sense the Mind, Canvas the Soul。心幕 MindCanvas 全场景数字化心理健康生态系统，由 SenseMind 多模态感知与情感计算驱动。'
   };
   document.title = titles[lang];
   const meta = document.querySelector('meta[name="description"]');
