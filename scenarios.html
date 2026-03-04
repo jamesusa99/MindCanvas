@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindCanvas — Full-Scenario Application</title>
+  <meta name="description" content="Full-scenario application landscape. Campus screening, deep interaction, daily guardian, classroom prevention.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="scenarios-page">
+  <header class="site-header scrolled">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <span class="logo-text">MindCanvas</span>
+        <span class="logo-sub" data-i18n="logoSub">心幕</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="scenarios.html" data-i18n="navScenarios">Scenarios</a></li>
+        <li><a href="overview.html#solutions" data-i18n="navProducts">Products</a></li>
+        <li><a href="app.html" data-i18n="navDownload">Download</a></li>
+        <li><a href="research.html" data-i18n="navTechnology">Research</a></li>
+        <li><a href="overview.html#about" data-i18n="navAbout">About</a></li>
+        <li>
+          <div class="lang-switcher">
+            <button type="button" class="lang-btn active" data-lang="en" aria-label="English">EN</button>
+            <span class="lang-sep">/</span>
+            <button type="button" class="lang-btn" data-lang="zh" aria-label="中文">中文</button>
+          </div>
+        </li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="scenarios" id="scenarios">
+      <div class="container">
+        <h2 class="section-title" data-i18n="scenariosTitle">Full-Scenario Application</h2>
+        <div class="scenario-carousel">
+          <div class="carousel-track">
+            <article class="scenario-slide active" data-scenario="portal">
+              <div class="slide-visual slide-portal">
+                <img src="assets/scene-portal.jpg" alt="校园筛查场景 - MindCanvas Portal" class="scene-img" onerror="this.style.display='none'">
+                <div class="scene-illustration" aria-hidden="true"></div>
+              </div>
+              <div class="slide-content">
+                <p class="slide-product">MindCanvas Portal</p>
+                <h3 class="slide-title" data-i18n="scene1Title">Campus Screening</h3>
+                <p class="slide-subtitle" data-i18n="scene1Sub">Smart Mental Health Detection Hub</p>
+                <div class="slide-detail">
+                  <h4 data-i18n="sceneUsage">Scenario</h4>
+                  <p data-i18n="scene1Usage">Students enter a private, welcoming smart detection booth at the school library or counseling room for a brief AI dialogue and regular "mental health checkup."</p>
+                  <h4 data-i18n="sceneEffect">Effect</h4>
+                  <p data-i18n="scene1Effect">Multimodal sensing captures subtle facial and acoustic cues—no rigid pencil-and-paper tests.</p>
+                  <h4 data-i18n="sceneValue">Core Value</h4>
+                  <p data-i18n="scene1Value"><strong>Efficient screening & early warning.</strong> Addresses the shortage of school counselors, pinpointing high-risk individuals at scale.</p>
+                </div>
+              </div>
+            </article>
+            <article class="scenario-slide" data-scenario="bot">
+              <div class="slide-visual slide-bot">
+                <img src="assets/scene-bot.jpg" alt="深度互动场景 - MindCanvas Bot" class="scene-img" onerror="this.style.display='none'">
+                <div class="scene-illustration" aria-hidden="true"></div>
+              </div>
+              <div class="slide-content">
+                <p class="slide-product">MindCanvas Bot</p>
+                <h3 class="slide-title" data-i18n="scene2Title">Deep Interaction</h3>
+                <p class="slide-subtitle" data-i18n="scene2Sub">Embodied AI Emotional Robot</p>
+                <div class="slide-detail">
+                  <h4 data-i18n="sceneUsage">Scenario</h4>
+                  <p data-i18n="scene2Usage">A humanoid robot appears in the break room or counseling space, acting as a companion for reserved or highly introverted students.</p>
+                  <h4 data-i18n="sceneEffect">Effect</h4>
+                  <p data-i18n="scene2Effect">Soft interaction and expressive language significantly lower psychological defenses.</p>
+                  <h4 data-i18n="sceneValue">Core Value</h4>
+                  <p data-i18n="scene2Value"><strong>Emotional ice-breaking & higher adherence.</strong> Physical presence creates deeper connection than a screen, improving cooperation in interventions.</p>
+                </div>
+              </div>
+            </article>
+            <article class="scenario-slide" data-scenario="app">
+              <div class="slide-visual slide-app">
+                <img src="assets/scene-app.jpg" alt="日常守护场景 - MindCanvas APP" class="scene-img" onerror="this.style.display='none'">
+                <div class="scene-illustration" aria-hidden="true"></div>
+              </div>
+              <div class="slide-content">
+                <p class="slide-product">MindCanvas APP</p>
+                <h3 class="slide-title" data-i18n="scene3Title">Daily Guardian</h3>
+                <p class="slide-subtitle" data-i18n="scene3Sub">Digital Mind Companion</p>
+                <div class="slide-detail">
+                  <h4 data-i18n="sceneUsage">Scenario</h4>
+                  <p data-i18n="scene3Usage">On the way home or alone at night, students chat with the Agent Matrix about academic stress or interpersonal worries.</p>
+                  <h4 data-i18n="sceneEffect">Effect</h4>
+                  <p data-i18n="scene3Effect">Digital doctor avatar provides 24/7 response and personalized guidance based on long-term emotional trends.</p>
+                  <h4 data-i18n="sceneValue">Core Value</h4>
+                  <p data-i18n="scene3Value"><strong>Long-term companionship & data continuity.</strong> Shifts mental health from "low-frequency consultation" to "high-frequency daily care" with a continuous, personal profile.</p>
+                </div>
+              </div>
+            </article>
+            <article class="scenario-slide" data-scenario="edu">
+              <div class="slide-visual slide-edu">
+                <img src="assets/scene-edu.jpg" alt="课堂预防场景 - MindCanvas Edu" class="scene-img" onerror="this.style.display='none'">
+                <div class="scene-illustration" aria-hidden="true"></div>
+              </div>
+              <div class="slide-content">
+                <p class="slide-product">MindCanvas Edu</p>
+                <h3 class="slide-title" data-i18n="scene4Title">Classroom Prevention</h3>
+                <p class="slide-subtitle" data-i18n="scene4Sub">Smart Dual-Teacher Classroom</p>
+                <div class="slide-detail">
+                  <h4 data-i18n="sceneUsage">Scenario</h4>
+                  <p data-i18n="scene4Usage">In remote-area classrooms, the AI dual-teacher system leads students through psychological resilience training on a large screen.</p>
+                  <h4 data-i18n="sceneEffect">Effect</h4>
+                  <p data-i18n="scene4Effect">With integrated mental health readers, students learn emotion-management skills through reading and AI interaction.</p>
+                  <h4 data-i18n="sceneValue">Core Value</h4>
+                  <p data-i18n="scene4Value"><strong>Educational equity & universal access.</strong> Delivers standardized mental intervention even where teachers are scarce, serving millions of students.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-indicators">
+            <button type="button" class="indicator active" data-index="0" aria-label="Scene 1"></button>
+            <button type="button" class="indicator" data-index="1" aria-label="Scene 2"></button>
+            <button type="button" class="indicator" data-index="2" aria-label="Scene 3"></button>
+            <button type="button" class="indicator" data-index="3" aria-label="Scene 4"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comparison" id="comparison">
+      <div class="container">
+        <h2 class="section-title" data-i18n="compareTitle">Traditional vs MindCanvas Full-Scenario</h2>
+        <div class="compare-table">
+          <div class="compare-row compare-header">
+            <div class="compare-cell compare-dim" data-i18n="compareDim">Dimension</div>
+            <div class="compare-cell compare-traditional" data-i18n="compareTraditional">Traditional Mode</div>
+            <div class="compare-cell compare-mindcanvas" data-i18n="compareMindCanvas">MindCanvas Full-Scenario</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell compare-dim" data-i18n="compareAccess">Accessibility</div>
+            <div class="compare-cell compare-traditional" data-i18n="compareAccessOld">Scarce resources, booking required, stigma</div>
+            <div class="compare-cell compare-mindcanvas" data-i18n="compareAccessNew">Anytime, anywhere · Multi-device (APP / Bot / Detection Hub)</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell compare-dim" data-i18n="compareAccuracy">Accuracy</div>
+            <div class="compare-cell compare-traditional" data-i18n="compareAccuracyOld">Static questionnaires, easy to fake or invalid</div>
+            <div class="compare-cell compare-mindcanvas" data-i18n="compareAccuracyNew">Multimodal dynamic sensing · Captures real emotional fluctuations</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell compare-dim" data-i18n="compareTimely">Timeliness</div>
+            <div class="compare-cell compare-traditional" data-i18n="compareTimelyOld">Reactive remedy, long intervention cycle</div>
+            <div class="compare-cell compare-mindcanvas" data-i18n="compareTimelyNew">Proactive monitoring + real-time support · Prevention loop</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="legacy" id="legacy">
+      <div class="container">
+        <h2 class="section-title" data-i18n="legacyTitle">A Decade of Impact · Data Speaks</h2>
+        <div class="legacy-stats">
+          <div class="stat-card">
+            <span class="stat-number" data-target-en="10.1" data-target-zh="1010">0</span>
+            <span class="stat-unit" data-i18n-unit="stat1Unit">M+</span>
+            <p class="stat-label" data-i18n="stat1Label">Students Served</p>
+            <p class="stat-desc" data-i18n="stat1Desc">UESTC MediaLab team has reached remote provinces over ten years</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target-en="5" data-target-zh="500">0</span>
+            <span class="stat-unit" data-i18n-unit="stat2Unit">M+</span>
+            <p class="stat-label" data-i18n="stat2Label">AI Product Validation</p>
+            <p class="stat-desc" data-i18n="stat2Desc">China's first mental health AI at scale</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number stat-percent" data-target-en="100" data-target-zh="100">0</span>
+            <span class="stat-unit">%</span>
+            <p class="stat-label" data-i18n="stat3Label">Fully Digital</p>
+            <p class="stat-desc" data-i18n="stat3Desc">Complete loop: assessment, monitoring, intervention</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="legacy-cta">
+      <div class="container">
+        <a href="overview.html#solutions" class="btn btn-primary btn-large" data-i18n="ctaNextPage">Products & About →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="logo-text">MindCanvas</span>
+        <span class="logo-sub" data-i18n="logoSub">心幕</span>
+      </div>
+      <p class="footer-slogan" data-i18n="footerSlogan">Weaving the canvas of mind with AI, guarding clear skies for every soul.</p>
+      <p class="footer-copy" data-i18n="footerCopy">© MindCanvas · sensemind.ai</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

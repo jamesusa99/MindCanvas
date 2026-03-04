@@ -1,0 +1,179 @@
+/* =============================================
+   MindCanvas 研究页 — 独立样式
+   ============================================= */
+
+.research-page {
+  padding-top: 70px;
+}
+
+.research-hero {
+  background: linear-gradient(160deg, var(--blue-deep) 0%, var(--blue-primary) 50%, var(--blue-light) 100%);
+  padding: var(--space-xl) var(--space-lg);
+  color: white;
+  text-align: center;
+}
+
+.research-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.research-hero h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+  color: white;
+}
+
+.research-hero-sub {
+  max-width: 640px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.research-overview {
+  padding: var(--space-xl) var(--space-lg);
+  background: var(--gray-100);
+  text-align: center;
+}
+
+.research-overview .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.research-overview .section-title {
+  margin-bottom: var(--space-lg);
+}
+
+.research-overview p {
+  max-width: 720px;
+  margin-bottom: var(--space-md);
+  color: var(--gray-600);
+}
+
+.research-pillars {
+  padding: var(--space-xl) var(--space-lg);
+}
+
+.research-pillar {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  align-items: start;
+}
+
+.research-pillar:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .research-pillar {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pillar-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pillar-icon {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--blue-primary), var(--blue-deep));
+  border-radius: var(--radius-lg);
+  color: var(--gold-soft);
+}
+
+.pillar-content h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--blue-deep);
+  margin-bottom: var(--space-md);
+}
+
+.pillar-content p {
+  margin-bottom: var(--space-md);
+  color: var(--gray-600);
+  line-height: 1.7;
+}
+
+.pillar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pillar-list li {
+  position: relative;
+  padding-left: 1.25em;
+  margin-bottom: var(--space-xs);
+  color: var(--gray-600);
+}
+
+.pillar-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: var(--teal-healing);
+  border-radius: 50%;
+}
+
+.research-publications {
+  padding: var(--space-xl) var(--space-lg);
+  background: var(--gray-100);
+  text-align: center;
+}
+
+.research-publications .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.research-intro {
+  max-width: 640px;
+  margin-bottom: var(--space-md);
+  color: var(--gray-600);
+}
+
+.pub-placeholder {
+  font-style: italic;
+  color: var(--gray-400);
+}
+
+.research-team {
+  padding: var(--space-xl) var(--space-lg);
+  text-align: center;
+}
+
+.research-team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.research-team p {
+  max-width: 640px;
+  color: var(--gray-600);
+}
+
+.research-back {
+  padding: var(--space-lg) var(--space-lg) var(--space-xl);
+  text-align: center;
+}

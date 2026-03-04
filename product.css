@@ -1,0 +1,262 @@
+/* =============================================
+   MindCanvas 产品页 — 统一风格
+   渐变蓝主基调 · 柔和圆角
+   ============================================= */
+
+.product-page {
+  padding-top: 70px;
+}
+
+/* ========== Product Hero ========== */
+.product-hero {
+  background: linear-gradient(160deg, var(--blue-deep) 0%, var(--blue-primary) 50%, var(--blue-light) 100%);
+  padding: var(--space-lg) var(--space-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.product-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 50% at 70% 20%, rgba(212, 168, 75, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.product-hero-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.product-hero-visual {
+  aspect-ratio: 4/3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.product-hero-visual-placeholder {
+  font-size: 4rem;
+  opacity: 0.6;
+}
+
+.product-hero-logo {
+  background: rgba(255, 255, 255, 0.95);
+  padding: var(--space-lg);
+}
+
+.product-hero-logo .app-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.download-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.store-badge {
+  display: inline-block;
+  transition: opacity 0.2s;
+}
+
+.store-badge:hover {
+  opacity: 0.85;
+}
+
+.store-badge img {
+  display: block;
+  height: 40px;
+  width: auto;
+  border-radius: 4px;
+}
+
+.product-hero-content h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: var(--space-xs);
+}
+
+.product-hero-content .product-tagline {
+  font-size: 1.1rem;
+  color: var(--gold-soft);
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+}
+
+.product-hero-content .product-overview {
+  color: var(--gray-200);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .product-hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .product-hero-visual {
+    order: -1;
+    max-height: 200px;
+  }
+}
+
+/* ========== Core Features ========== */
+.product-features {
+  padding: var(--space-lg) var(--space-lg);
+  background: var(--white);
+}
+
+.product-features .section-title {
+  color: var(--blue-deep);
+}
+
+.feature-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-lg);
+}
+
+.feature-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  border: 1px solid rgba(13, 148, 136, 0.15);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s var(--ease-out);
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--teal-healing), var(--teal-soft));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.feature-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--blue-deep);
+  margin-bottom: var(--space-sm);
+}
+
+.feature-card p {
+  color: var(--gray-600);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ========== Product Value ========== */
+.product-value {
+  padding: var(--space-lg) var(--space-lg);
+  background: linear-gradient(135deg, var(--blue-primary), var(--blue-deep));
+  color: white;
+}
+
+.product-value-inner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-value h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.product-value p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--gray-200);
+}
+
+/* ========== Ecosystem ========== */
+.product-ecosystem {
+  padding: var(--space-lg) var(--space-lg);
+  background: var(--gray-100);
+}
+
+.product-ecosystem .section-title {
+  color: var(--blue-deep);
+}
+
+.ecosystem-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+}
+
+.ecosystem-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid transparent;
+  transition: all 0.3s var(--ease-out);
+}
+
+.ecosystem-card:hover {
+  border-color: var(--teal-soft);
+  transform: translateY(-2px);
+}
+
+.ecosystem-card.current {
+  border-color: var(--gold-soft);
+  background: rgba(212, 168, 75, 0.08);
+}
+
+.ecosystem-card .eco-icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-sm);
+}
+
+.ecosystem-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--blue-deep);
+  margin-bottom: var(--space-xs);
+}
+
+.ecosystem-card p {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+}
+
+@media (max-width: 800px) {
+  .ecosystem-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
